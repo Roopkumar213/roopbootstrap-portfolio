@@ -1,0 +1,192 @@
+.nav{
+    padding: 10px;
+    background-color: aqua;
+}
+.nav-link{
+    color: brown;
+}
+.img-fluid{
+    height:350px;
+}
+  .body-section{
+    height:85vh;
+    color: tomato;
+   
+  }
+  body{
+    background-image: url("https://media.istockphoto.com/id/92893866/photo/space-stars-texture.webp?a=1&b=1&s=612x612&w=0&k=20&c=vVIFup_Y_zvwjtLJP6W1cUrRcca1B2LKSz5VRR-7Q6I=");
+  }
+  .name-tag{
+    color: chartreuse;
+    font-family: "Noto Sans SC", serif;
+    text-align: center;
+  }
+  .projects-section h1{
+    color:green;
+    font-weight: bolder;
+    border: 5px solid pink;
+    text-align: center;
+    
+    font-family: "Noto Sans SC", serif; 
+    
+  }
+  .projects-sectionh2{
+    color: darkblue;
+  }
+  .logo{
+    height:50px;
+    
+  }
+  .projects-section p{
+    color: tomato;
+    font-family: "Noto Sans SC", serif;
+  }
+  .service-section h1{
+ text-align: center ;
+ color: green;
+ border:5px solid pink;
+  }
+  .service-section h3{
+    color: aqua;
+  }
+  ul{
+    color: burlywood;
+    
+  }
+
+  .service-section{
+    text-align: center;
+  }
+  ul{
+    text-align: center ;
+    list-style-type: none;
+  }
+  .port{
+    padding-right: 650px;
+    color: darkblue;
+    font-family: "Bitter", serif; 
+  }
+  .project-section{
+    border:1px solid pink;
+    text-align: center;
+    color: green;
+  }
+  .project-info{
+    color: aqua;
+  }
+  .projects-section p{
+    color:burlywood;
+    font-family: "Bitter", serif;
+  }
+  .project-title{
+    color: aqua;
+    font-size: bold;
+   text-align: center;
+  }
+  .projects-section{
+    text-align: center;
+    color: gold;
+  }
+  .project-info{
+    color: whitesmoke;
+  }
+  span{
+  color: fuchsia;
+  font-weight: bolder;
+  }
+  .project-head{
+    color: lightcoral;
+  }
+  .contact{
+    text-align: center;
+    color: aqua;
+  }
+  .logo{
+    height:50px;
+    padding:10px;
+  }
+  .contact h1{
+    color:green;
+    
+  }
+  footer{
+    font-weight: 100;
+   font-variant: normal;
+  
+  }
+  sql  a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+ sql  a:hover {
+    background-color: darkblue;
+}
+@media (max-width: 768px) {
+  .nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-item {
+      margin: 10px 0;
+  }
+
+  .port {
+      font-size: 20px;
+  }
+
+  .body-section {
+      padding: 10px;
+  }
+
+  .row {
+      flex-direction: column;
+  }
+
+  .col-7, .col-5 {
+      width: 100%;
+  }
+
+  .service-section, .projects-section, .contact-section {
+      padding: 10px;
+  }
+
+  .logo {
+      width: 25px;
+      height: 25px;
+  }
+
+  .sql a {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .port {
+      font-size: 18px;
+  }
+
+  .nav-item {
+      font-size: 14px;
+  }
+
+  .body-section {
+      padding: 5px;
+  }
+
+  .service-section, .projects-section, .contact-section {
+      padding: 5px;
+  }
+
+  .logo {
+      width: 20px;
+      height: 20px;
+  }
+
+  .sql a {
+      font-size: 14px;
+  }
+}
